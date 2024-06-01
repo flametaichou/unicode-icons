@@ -1,0 +1,22 @@
+@import "vars";
+@import "icon";
+
+:root {
+    @each $colorName, $hex in $colors {
+      --#{$colorName}: #{$hex};
+      --#{$colorName}-darken1: #{darken($hex, 3)};
+      --#{$colorName}-darken2: #{darken($hex, 8)};
+      --#{$colorName}-lighten1: #{lighten($hex, 3)};
+      --#{$colorName}-lighten2: #{lighten($hex, 8)};
+      --#{$colorName}-hover1: #{rgba($hex, 0.1)};
+      --#{$colorName}-hover2: #{rgba($hex, 0.3)};
+    }
+  
+    --black: #1d1d1d;
+    --white: #ffffff;
+    --gray0: #f3f3f3;
+    --gray1: #d4d4d4;
+    --gray2: #b7b7b7;
+    --gray3: gray;
+    --gray4: #353535;
+  }

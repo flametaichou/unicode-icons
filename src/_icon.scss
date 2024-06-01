@@ -1,0 +1,38 @@
+// https://www.w3schools.com/cssref/pr_gen_content.php
+// TODO: fix element size
+
+.icon {
+  line-height: 16px;
+  font-size: 16px;
+  color: transparent;
+  text-shadow: 0 0 0 var(--black);
+  font-family: monospace !important;
+  font-weight: bold;
+  text-align: center;
+
+  @each $colorName, $hex in $colors {
+    &.#{$colorName} {
+      text-shadow: 0 0 0 var(--#{$colorName});
+    }
+  }
+
+  &--small {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  &--large {
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  // TODO: --text
+
+  @each $iconName, $iconContent in $icons {
+    &.#{$iconName} {
+      &::before {
+        content: '#{$iconContent}';
+      }
+    }
+  }
+}
