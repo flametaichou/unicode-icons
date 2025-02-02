@@ -1,20 +1,13 @@
-// https://www.w3schools.com/cssref/pr_gen_content.php
-// TODO: fix element size
-
-.icon {
+.u-icon {
   line-height: 16px;
   font-size: 16px;
+
   color: transparent;
-  text-shadow: 0 0 0 var(--black);
+  text-shadow: 0 0 0 black;
+
   font-family: monospace !important;
   font-weight: bold;
   text-align: center;
-
-  @each $colorName, $hex in $colors {
-    &.#{$colorName} {
-      text-shadow: 0 0 0 var(--#{$colorName});
-    }
-  }
 
   &--small {
     line-height: 12px;
@@ -26,7 +19,12 @@
     font-size: 20px;
   }
 
-  // TODO: --text
+  // TODO: It doesn't work in Firefox
+  &--text {
+    -webkit-text-fill-color: transparent;
+    color: inherit;
+    text-shadow: 0 0 0;
+  }
 
   @each $iconName, $iconContent in $icons {
     &.#{$iconName} {

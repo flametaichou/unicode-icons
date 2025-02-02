@@ -2,123 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Unicode Icons</title>
+    <title>Unicode Icons - Storybook</title>
     <link rel="stylesheet" href="dist/unicode-icons.css">
     <style>
         body {
             padding: 2em 4em;
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .section {
-            display: flex;
-            gap: 1em;
-            border-bottom: 1px solid var(--gray0);
-            padding: 1em;
+        h2 {
+            border-bottom: 1px solid lightgray;
         }
 
-        .section__left {
-            flex: 1 0;
+        hgroup h3, hgroup p {    
+            margin-block-start: 0.5em;
+            margin-block-end: 0.5em;
         }
 
-        .section__right {
-
-            flex: 1 0;
+        h1, h2, h3, h4, h5, h6 {
+            color: #555555;
         }
 
-        .nav-background {
-            padding: 1em;
-            background: var(--primary);
+        .icons-container {
+            display: flex; 
+            gap: 15px; 
+            flex-wrap: wrap;
+            margin-top: 24px;
+            margin-bottom: 32px;
         }
 
-        .tabs-background {
-            height: 48px;
-            display: flex;
-            background-color: var(--gray0);
-            border-bottom: 1px solid var(--gray2);
+        .text-red {
+            color: red;
+        }
+
+        .text-green {
+            color: green;
+        }
+
+        .text-blue {
+            color: blue;
+        }
+
+        .text-shadow-red {
+            text-shadow: 0 0 0 red;
+        }
+
+        .text-shadow-green {
+            text-shadow: 0 0 0 green;
+        }
+
+        .text-shadow-blue {
+            text-shadow: 0 0 0 blue;
         }
     </style>
 </head>
 
 <body>
-<h2>Icons</h2>
-<div class="section">
-    <div class="section__left">
-        <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-            <span class="icon link secondary"></span>
-            <span class="icon flame secondary"></span>
-            <span class="icon close secondary"></span>
-            <span class="icon check secondary"></span>
-            <span class="icon account secondary"></span>
-            <span class="icon folder secondary"></span>
-            <span class="icon folder-open secondary"></span>
-            <span class="icon information secondary"></span>
-            <span class="icon information-symbol secondary"></span>
-            <span class="icon triangle secondary"></span>
-            <span class="icon triangle-down secondary"></span>
-            <span class="icon plus secondary"></span>
-            <span class="icon minus secondary"></span>
-            <span class="icon magnify secondary"></span>
-            <span class="icon connection secondary"></span>
-            <span class="icon lock secondary"></span>
-            <span class="icon pencil secondary"></span>
-            <span class="icon delete secondary"></span>
-            <span class="icon alert secondary"></span>
-            <span class="icon hand secondary"></span>
-            <span class="icon cog secondary"></span>
-            <span class="icon cancel secondary"></span>
-            <span class="icon dots secondary"></span>
-            <span class="icon cloud secondary"></span>
-            <span class="icon cloud-outline secondary"></span>
-            <span class="icon bell secondary"></span>
-            <span class="icon message secondary"></span>
-            <span class="icon paperclip secondary"></span>
-            <span class="icon asterisk secondary"></span>
-            <span class="icon calendar secondary"></span>
-            <span class="icon web secondary"></span>
-            <span class="icon help secondary"></span>
-            <span class="icon exclamation secondary"></span>
-            <span class="icon circle-outline secondary"></span>
-            <span class="icon circle secondary"></span>
-            <span class="icon square secondary"></span>
-            <span class="icon heart secondary"></span>
-            <span class="icon wrench secondary"></span>
-            <span class="icon cart secondary"></span>
-            <span class="icon eye secondary"></span>
-            <span class="icon map secondary"></span>
-            <span class="icon map-marker secondary"></span>
-            <span class="icon refresh secondary"></span>
-            <span class="icon timer-sand secondary"></span>
-            <span class="icon timer secondary"></span>
-            <span class="icon clock secondary"></span>
-        </div>
-
-
-        <div style="display: flex; gap: 15px; flex-wrap: wrap; padding-top: 15px">
-
-            <span class="icon square-md secondary"></span>
-            <span class="icon square-sm secondary"></span>
-            <span class="icon square-xs secondary"></span>
-            <span class="icon email secondary"></span>
-
-
-
-            <span class="icon play secondary"></span>
-            <span class="icon palette secondary"></span>
-            <span class="icon chevron secondary"></span>
-            <span class="icon filter secondary"></span>
-            <span class="icon camera secondary"></span>
-            <span class="icon chart secondary"></span>
-            <span class="icon clipboard secondary"></span>
-            <span class="icon reload secondary"></span>
-            <span class="icon dots-horizontal secondary"></span>
-            <span class="icon rotate secondary"></span>
-            <span class="icon pause secondary"></span>
-            <span class="icon download secondary"></span>
-            <span class="icon upload secondary"></span>
-        </div>
-    </div>
-    <div class="section__right">
-    </div>
+<h2>Unicode Icons</h2>
+<h3>Icons list</h3>
+<div class="icons-container">
+    <span class="u-icon link"></span>
+    <span class="u-icon flame"></span>
+    <span class="u-icon close"></span>
+    <span class="u-icon check"></span>
+    <span class="u-icon account"></span>
+    <span class="u-icon folder"></span>
+    <span class="u-icon folder-open"></span>
+    <span class="u-icon information"></span>
+    <span class="u-icon information-symbol"></span>
+    <span class="u-icon triangle"></span>
+    <span class="u-icon triangle-down"></span>
+    <span class="u-icon plus"></span>
+    <span class="u-icon minus"></span>
+    <span class="u-icon magnify"></span>
+    <span class="u-icon connection"></span>
+    <span class="u-icon lock"></span>
+    <span class="u-icon pencil"></span>
+    <span class="u-icon delete"></span>
+    <span class="u-icon alert"></span>
+    <span class="u-icon hand"></span>
+    <span class="u-icon cog"></span>
+    <span class="u-icon cancel"></span>
+    <span class="u-icon dots"></span>
+    <span class="u-icon cloud"></span>
+    <span class="u-icon cloud-outline"></span>
+    <span class="u-icon bell"></span>
+    <span class="u-icon message"></span>
+    <span class="u-icon paperclip"></span>
+    <span class="u-icon asterisk"></span>
+    <span class="u-icon calendar"></span>
+    <span class="u-icon web"></span>
+    <span class="u-icon help"></span>
+    <span class="u-icon exclamation"></span>
+    <span class="u-icon circle-outline"></span>
+    <span class="u-icon circle"></span>
+    <span class="u-icon square"></span>
+    <span class="u-icon heart"></span>
+    <span class="u-icon wrench"></span>
+    <span class="u-icon cart"></span>
+    <span class="u-icon eye"></span>
+    <span class="u-icon map"></span>
+    <span class="u-icon map-marker"></span>
+    <span class="u-icon refresh"></span>
+    <span class="u-icon timer-sand"></span>
+    <span class="u-icon timer"></span>
+    <span class="u-icon clock"></span>
+</div>
+<hgroup>
+    <h3>Icon Sizes</h3>
+    <p>There are 3 predefined icons sizes</p>
+</hgroup>
+<div class="icons-container">
+    <span class="u-icon u-icon--small link"></span>
+    <span class="u-icon link"></span>
+    <span class="u-icon u-icon--large link"></span>
+</div>
+<hgroup>
+    <h3>Setting a color</h3>
+    <p>Color can be configured with <code>text-shadow</code> property. You need to define classes with your own colors in your project.</p>
+</hgroup>
+<div class="icons-container">
+    <span class="u-icon link text-shadow-red"></span>
+    <span class="u-icon link text-shadow-green"></span>
+    <span class="u-icon link text-shadow-blue"></span>
+</div>
+<p>There is a way to make icons follow the text color (<code>color</code> property), but it doesn't work in Firefox</p>
+<div class="icons-container text-red">
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
+</div>
+<div class="icons-container text-green">
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
+</div>
+<div class="icons-container text-blue">
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
+    <span class="u-icon u-icon--text link"></span>
 </div>
 
 </body>
