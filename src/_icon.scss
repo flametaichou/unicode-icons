@@ -23,7 +23,7 @@
   &--text {
     -webkit-text-fill-color: transparent;
     color: inherit;
-    text-shadow: 0 0 0;
+    text-shadow: 0 0 0 currentColor;
   }
 
   @each $iconName, $iconContent in $icons {
