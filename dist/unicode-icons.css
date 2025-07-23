@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/*! unicode-icons v0.0.1 | MIT License | https://github.com/flametaichou/unicode-icons */
+.u-icon {
+  line-height: 16px;
+  font-size: 16px;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  font-family: monospace !important;
+  font-weight: bold;
+  text-align: center;
+}
+.u-icon--small {
+  line-height: 12px;
+  font-size: 12px;
+}
+.u-icon--large {
+  line-height: 20px;
+  font-size: 20px;
+}
+.u-icon--text {
+  -webkit-text-fill-color: transparent;
+  color: inherit;
+  text-shadow: 0 0 0 currentColor;
+}
+.u-icon.link::before {
+  content: "🔗";
+}
+.u-icon.flame::before {
+  content: "🔥";
+}
+.u-icon.close::before {
+  content: "❌";
+}
+.u-icon.check::before {
+  content: "✔️";
+}
+.u-icon.account::before {
+  content: "👤";
+}
+.u-icon.folder::before {
+  content: "📁";
+}
+.u-icon.folder-open::before {
+  content: "📂";
+}
+.u-icon.information::before {
+  content: "🛈️";
+}
+.u-icon.information-symbol::before {
+  content: "ℹ";
+}
+.u-icon.triangle::before {
+  content: "▲";
+}
+.u-icon.triangle-down::before {
+  content: "▼";
+}
+.u-icon.plus::before {
+  content: "➕";
+}
+.u-icon.minus::before {
+  content: "➖";
+}
+.u-icon.magnify::before {
+  content: "🔎";
+}
+.u-icon.connection::before {
+  content: "🔌";
+}
+.u-icon.lock::before {
+  content: "🔓";
+}
+.u-icon.key::before {
+  content: "🔑";
+}
+.u-icon.pencil::before {
+  content: "✏️";
+}
+.u-icon.delete::before {
+  content: "🗑️";
+}
+.u-icon.alert::before {
+  content: "⚠";
+}
+.u-icon.hand::before {
+  content: "✋";
+}
+.u-icon.cog::before {
+  content: "⚙️";
+}
+.u-icon.cancel::before {
+  content: "🚫";
+}
+.u-icon.dots::before {
+  content: "⋮";
+}
+.u-icon.cloud::before {
+  content: "☁️";
+}
+.u-icon.cloud-outline::before {
+  content: "☁";
+}
+.u-icon.bell::before {
+  content: "🔔";
+}
+.u-icon.message::before {
+  content: "💬";
+}
+.u-icon.paperclip::before {
+  content: "📎";
+}
+.u-icon.asterisk::before {
+  content: "✱️";
+}
+.u-icon.calendar::before {
+  content: "️🗓";
+}
+.u-icon.web::before {
+  content: "🌐";
+}
+.u-icon.help::before {
+  content: "❔";
+}
+.u-icon.exclamation::before {
+  content: "❕";
+}
+.u-icon.circle-outline::before {
+  content: "⭕";
+}
+.u-icon.circle::before {
+  content: "⚪";
+}
+.u-icon.square::before {
+  content: "⬜";
+}
+.u-icon.heart::before {
+  content: "❤️";
+}
+.u-icon.wrench::before {
+  content: "🔧";
+}
+.u-icon.cart::before {
+  content: "🛒";
+}
+.u-icon.eye::before {
+  content: "👁";
+}
+.u-icon.map::before {
+  content: "🗺️";
+}
+.u-icon.map-marker::before {
+  content: "📍";
+}
+.u-icon.refresh::before {
+  content: "↻";
+}
+.u-icon.timer-sand::before {
+  content: "⏳";
+}
+.u-icon.timer::before {
+  content: "⏱";
+}
+.u-icon.clock::before {
+  content: "⏲";
+}
+
+/*# sourceMappingURL=unicode-icons.css.map */
