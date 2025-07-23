@@ -36,4 +36,6 @@ npm run dev
 <span class="u-icon account"></span>
 ```
 
-There are some examples in the `index.html` file.
+The whole list of icons can be found [here](https://github.com/flametaichou/unicode-icons/blob/main/src/_vars.scss).
+
+There are some extra examples in the `index.html` file.
